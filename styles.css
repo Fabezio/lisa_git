@@ -1,13 +1,53 @@
 body, html {
   font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+body {
+  /* max-width: 1200px; */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
 
+}
+#banner {
+  display: inline;
+}
+figure {
+
+  padding: inherit;
+  align-content: start;
+  display: grid;
+  align-items: top;
+  grid-gap: 20px;
+  grid-template-columns: 64px 420px;
+  grid-template-rows: 1fr;
+  grid-auto-flow: column;
+  /* height: 64px; */
+}
+img {
+  align-self: center;
+}
+figcaption {
+  align-self: flex-start;
+  
+}
 h1 {
   text-transform: uppercase;
+  max-width: 420px;
 }
-h1 em {
+.light-font {
   text-transform: capitalize;
   font-variant: small-caps;
-  font-weight: 400;
+  font-weight: 300;
+  
+}
+.italic {
+  font-style: italic;
+  
 }
   
