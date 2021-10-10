@@ -4,9 +4,7 @@ body, html {
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  /* max-width: 1200px; */
-}
+
 .container {
   display: flex;
   justify-content: center;
@@ -51,3 +49,19 @@ h1 {
   
 }
   
+
+section {
+  max-width: 780px;
+  margin: 0 auto;
+}
+code {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 8px;
+  display: block;
+  background : rgba(127,127,127, .2);
+  font-weight: 500;
+  font-size: 1.25em;
+  letter-spacing: -1px;
+  box-shadow: 1px 1px darkslategray;
+}
